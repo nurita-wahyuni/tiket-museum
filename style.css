@@ -1,0 +1,102 @@
+/* Umum */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Kontainer utama */
+.container {
+    background-color: #fff;
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Judul form */
+.container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Label */
+label {
+    display: block;
+    text-align: left;
+    margin: 10px 0 5px;
+    font-size: 16px;
+}
+
+/* Input dan Select */
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Tombol */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #00b374;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #009963;
+}
+
+/* Tampilan dashboard admin */
+.dashboard {
+    background-color: #efefff;
+    width: 400px;
+    margin: 100px auto;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.dashboard h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.dashboard p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.dashboard a,
+.dashboard button {
+    background-color: #00b374;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.dashboard a:hover,
+.dashboard button:hover {
+    background-color: #009963;
+}
